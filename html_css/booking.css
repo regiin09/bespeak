@@ -1,0 +1,113 @@
+.row {
+    display: flex;
+    justify-content: center;
+  }
+  .seat.selected {
+    background-color: #2ecc71;
+  }
+  .seat:hover {
+    background-color: #95a5a6;
+  }
+  
+
+  
+  .screen
+  {
+    display: flex;
+    justify-content: center;
+    background-color: #95a5a6;
+    margin-left: 70px;
+    margin-right: 70px;
+    
+  }
+  
+  .fhead
+{
+    display: flex;
+    justify-content: center;
+    font-family: teko;
+}
+ #eyeshere
+ {
+    font-size: 15px;
+ }
+ 
+ .wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .left-box, .right-box ,.centre-wing{
+    font-size: 10px;
+    width: 20%; 
+    background-color: lightgray;
+    padding: 20px;
+    border: 1px solid gray;
+  }
+  .left-box
+  {
+    margin-left: 500px;
+    margin-top: 50px;
+  }
+  
+  .right-box {
+    margin-right: 17%;
+    margin-top: 50px;
+  }
+  .seats {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .row {
+    display: flex;
+  }
+   
+  .seat {
+    width: 35px;
+    height: 35px;
+    background-color: white;
+    border: 1px solid gray;
+    margin-right: 5px;
+  }
+  .left-wing, .right-wing {
+    font-size: 10px;
+    width: 20%; 
+    background-color: lightgray;
+    padding: 20px;
+    border: 1px solid gray;
+    
+  }
+  .left-wing
+  {
+    
+    margin-top: 30px;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    transform: rotate(15deg);
+  }
+  .right-wing {
+    position: absolute;
+    margin-top: 50px;
+    display: flex;
+    top: 620px;
+    left: 1350px;
+    flex-direction: column;
+    transform: rotate(-15deg);
+  }
+  .centre-wing
+  {
+    position: absolute;
+    width: 500px;
+    left: 650px;
+    top: 800px;
+  }
+  
+  .btn
+  {
+    margin-top: 10px;
+    padding-top: 15px;
+    width: 110.80951999999999px;
+    background-color: green; 
+  }

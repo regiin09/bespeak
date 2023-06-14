@@ -1,0 +1,115 @@
+.top_division
+{
+    
+    background-color: #FFD4D4;
+    position: relative;
+    padding-top: 120px;
+}
+#photo-slider {
+    width: 100%;
+    height: 400px;
+    position: relative;
+ }
+ 
+ #photo-slider img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+ }
+ 
+ #photo-slider img:first-child {
+    display: block;
+ }
+ 
+.bes
+{
+    position: absolute;
+    width: 170px;
+    top: 5px;
+    left: 150px;
+}
+.logo
+{
+    position: absolute;
+    left: 0;
+    top: 5px;
+    width: 150px;
+}
+.admin
+{
+    position: absolute;
+    top: 40px;
+    width: 40px;
+    right: 20px;
+    background-color:#FFD4D4 ;
+}
+body
+{
+    margin: 0;
+}
+#shittu
+{
+    margin-top: 0%;
+  display: flex;
+  justify-content: center;
+    font-family: teko;
+}
+.reju
+{
+    font-family: teko;
+    display: flex;
+  justify-content: center;
+}
+.search
+{
+    position: absolute;
+    top: 50px;
+    left: 400px;
+    width: 1000px;
+}
+.fhead
+{
+    display: flex;
+    justify-content: center;
+    font-family: teko;
+}
+.onlytext
+{
+    font-family: teko; 
+}
+.h-tag
+{
+   
+    position: relative;
+    padding-top: 120px;
+    background-color:#FFD4D4;
+}
+#login-form
+{
+    text-align: center;
+    padding-top: 100px;
+}
+
+.signup
+{
+    background-color:#FFD4D4;
+    position: relative;
+    padding-top: 270px;
+    
+}
+.logs
+{
+    position: absolute;
+    top: -130px;
+    width: 600px;
+    left: 600px;
+}
+.signup-form
+{
+    text-align: center;
+    padding-top: 100px;
+    
+}
